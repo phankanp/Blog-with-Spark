@@ -1,0 +1,21 @@
+{{#partial "content"}}
+    <section>
+        <div class="container">
+            <div class="new-entry">
+                <h2>Publish New Entry</h2>
+                <form action="new-post" method="post">
+                    <label for="title"> Title</label>
+                    <input type="text" name="title" required placeholder="Enter title for new entry"><br>
+                    <label for="entry">Entry</label>
+                    <textarea rows="5" name="entry" required placeholder="Enter content for new entry"></textarea>
+                    <label for="tags">Tags</label>
+                    <input type="text" name="tags" placeholder="Enter tags separated by spaces"><br>
+                    <input type="submit" value="Publish Entry" class="button">
+                    <a href="/" class="button button-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </section>
+{{/partial}}
+
+{{> base.hbs}}
