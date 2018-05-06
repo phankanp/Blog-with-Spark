@@ -1,3 +1,5 @@
+A blog web site built using Spark. Defined application routes, used data access objects to access application data, used a templating engine for rendering HTML, and created forms to allow users to add new blog entries and comment on existing ones.
+
 # Steps
 
 - Use mockup files to build a personal blog.
